@@ -1,0 +1,30 @@
+<!--pages/menu/menu.wxml-->
+<view class="menu_list">
+    <image class="menu_main" src="../photo/menu_main.png"></image>
+    <image class="menu_title" src="../photo/men_title.png"></image>
+    <view class="list">
+      <text>
+        玉米奶油蘑菇浓汤.........................................21RMB
+        Corn cream mushroom soup
+      </text>
+      <text>
+        牛排蕃茄意面..................................................41RMB
+        Spaghetti with tomato pasta 
+      </text>
+      <text>
+        芝士焗蓝莓薯泥.............................................32RMB
+        Cheese, blueberry, mashed potatoes
+      </text>
+      <text>
+        蔬菜干果沙拉.................................................24RMB
+        Vegetable dried fruit salad
+      </text>
+      <image src="../photo/menu_middle1.png" style="position: absolute; left: 0px;top: 273px;width: 139px; height: 89px;"></image>
+      <image src="../photo/menu_middle2.png" style="position: absolute; left: 157px; top: 273px;width: 139px; height: 89px;"></image>
+      <text>
+        香烤法式羊肩排.............................................119RMB
+        Grilled French lamb shoulder pad
+      </text>
+    </view>
+</view>
+<loading hidden="{{hidden}}">玩命加载中…</loading>

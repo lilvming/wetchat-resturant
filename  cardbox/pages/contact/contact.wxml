@@ -1,0 +1,15 @@
+<!--pages/contact/contact.wxml-->
+<view class="contact">
+    <image class="contact_main" src="../photo/contact_bg.png"></image>
+    <image class="contact_top" src="../photo/contact_top.png"></image>
+    <image class="menu_title" src="../photo/main_title.png"></image>
+    <view class="contact_dec">
+        <text>联  系  电  话\n</text>
+        <text>000-0000000\n</text>
+        <text>联  系  地  址\n</text>
+        <text>XXX省XXX市XXX县XXX路XXX号\n</text>
+        <text>联  系  邮  箱\n</text>
+        <text>xxx@.co.m</text>
+    </view>
+</view>
+

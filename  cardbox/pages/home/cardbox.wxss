@@ -1,0 +1,57 @@
+page{
+  width: 100%;
+  height:100%;
+}
+.bg-view{
+  display:flex;
+  height: 100%;
+  justify-content: center;
+  align-items:center;
+}
+
+.bg-image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.title-image {
+  width: 395rpx; 
+  height: 120rpx;
+  position: absolute; 
+  left: 180rpx; 
+  top: 120rpx;
+}
+
+.bookmeal{
+  position: absolute; 
+  left: 180rpx; 
+  top: 300rpx;
+  color: white;
+  width: 360rpx; 
+  height: 72rpx; 
+  line-height: 72rpx;
+  text-align: center;
+  border-color: white;
+  border: 1px solid #fff;
+}
+
+.menu{
+  position: absolute; 
+  left: 180rpx; 
+  top: 400rpx;
+  color: white;
+  text-align: center;
+  width: 360rpx; 
+  height: 72rpx; 
+  line-height: 72rpx;
+  border: 1px solid #fff;
+}
+
+.bottom-image{
+  position: absolute; 
+  left: 240rpx; 
+  top: 45%;
+  width: 480rpx;
+  height: 480rpx;
+}

@@ -1,0 +1,14 @@
+<view class="bg-view">
+    <image class="title-image" src="../photo/main_title.png">
+    </image>
+    <image class="bg-image" src="../photo/main.png" role="widthFix">
+    </image>
+    <image class="bottom-image" src="../photo/main_buttom.png">
+    </image>
+    
+      <view class="bookmeal">电话预定</view>
+      <view class="menu" bindtap="jumpToMenu">菜单
+      </view>
+    
+    
+</view>

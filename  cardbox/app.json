@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/home/cardbox",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/menu/menu",
+    "pages/contact/contact"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#EFFBFB",
+    "selectedColor": "#EFFBFB",
+    "backgroundColor": "#0B0719",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/cardbox",
+        "text": "首页",
+        "iconPath": "pages/photo/home_noclick.png",
+        "selectedIconPath": "pages/photo/home_click.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "菜单",
+        "iconPath": "pages/photo/menu_noclick.png",
+        "selectedIconPath": "pages/photo/menu_click.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "pages/photo/contact_noclick.png",
+        "selectedIconPath": "pages/photo/contact_click.png"
+      }
+    ],
+    "position": "bottom",
+    "custom": false
+  },
+  "debug": false,
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "resizable": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
+}

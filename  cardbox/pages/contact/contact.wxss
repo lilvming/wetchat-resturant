@@ -1,0 +1,30 @@
+/* pages/contact/contact.wxss */
+page{
+  width: 100%;
+  height:515px;
+}
+.contact{
+  display:flex;
+  height: 100%;
+  justify-content: center;
+  align-items:center;
+}
+.contact_main{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.menu_title {
+  position: absolute; left: 93px; top: 230px;
+  width: 189px; height: 72px;
+}
+.contact_top{
+  position: absolute; left: 12px; top: 16px;
+  width: 338px; height: 180px;
+}
+
+.contact_dec{
+  text-align: center;
+  position: absolute; left: 44px; top: 323px; width: 262px;
+  color: white;
+}
